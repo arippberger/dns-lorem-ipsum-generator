@@ -18,6 +18,8 @@ if ( !class_exists( 'dns_ipsum_generator' ) ) {
     		add_filter( 'mce_buttons', array( &$this, 'dns_ipsum_register_buttons') );
 			//[dns-ipsum]
 			add_shortcode( 'dns-ipsum', array( &$this,'dns_ipsum_func') );
+			//* enabel shortcodes in text widgets
+			add_filter('widget_text', 'do_shortcode');
 		} // End init()
 		public function dns_ipsum_add_buttons( $plugin_array ) {
     		$plugin_array['DNSIpsum'] = plugin_dir_url(__FILE__) . 'DNSIpsumTinyMCE.js';
