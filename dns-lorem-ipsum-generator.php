@@ -35,6 +35,7 @@ if ( !class_exists( 'dns_ipsum_generator' ) ) {
 				'what' => 'paras',
 				'start' => 1
 			), $atts ) );
+			$lorem_ipsum = '';
 			$generated_text = explode("\n", simplexml_load_file("http://www.lipsum.com/feed/xml?amount=$amount&what=$what&start=$start")->lipsum);
 			foreach ($generated_text as $paragraph) {
 				$lorem_ipsum .= "<p>" . $paragraph . "</p>";
