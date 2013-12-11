@@ -4,7 +4,7 @@ Donate link: http://duenorthstudios.com
 Tags: lorem ipsum, lorem, ipsum, lorem ipsum text, lorem ipsum text generator, text generator, text, generator
 Requires at least: 3.0.1
 Tested up to: 3.7.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,10 @@ The plugin will allow you to use the [dns-ipsum] shortcode in the content area o
 1. Download the ZIP from GitHub
 2. Upload under Dashboard -> Plugins -> Add New -> Upload
 3. Tada!  You can now use the [dns-ipsum] shortcode – Also, a button which adds to shortcode will be added to your TinyMCE interface.
+
+== Screenshots ==
+
+1. screenshot-1.png shows the DNS Lorem Ipsum button in the TinyMCE interface.
 
 == Changelog ==
 
