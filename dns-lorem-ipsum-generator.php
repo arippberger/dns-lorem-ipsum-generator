@@ -3,7 +3,7 @@
 Plugin Name: DNS Ipsum - Due North Studios Lorem Ipsum Generator
 Plugin URI: https://github.com/arippberger/dns-lorem-ipsum-generator
 Description: Adds lorem ipsum text via the [dns-ipsum] shortcode and a TinyMCE button 
-Version: 1.0
+Version: 1.1
 Author: Due North Studios, LLC
 Author URI: http://DueNorthStudios.com
 License: GPL2
